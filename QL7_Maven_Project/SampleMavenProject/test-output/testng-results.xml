@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-02T15:34:55 IST" name="Default suite" finished-at="2022-09-02T15:35:04 IST" duration-ms="9150">
+    <groups>
+    </groups>
+    <test started-at="2022-09-02T15:34:55 IST" name="Default test" finished-at="2022-09-02T15:35:04 IST" duration-ms="9150">
+      <class name="SeleniumExamples.practice2">
+        <test-method is-config="true" signature="openweb()[pri:0, instance:SeleniumExamples.practice2@183ec003]" started-at="2022-09-02T15:34:55 IST" name="openweb" finished-at="2022-09-02T15:35:02 IST" duration-ms="6665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openweb -->
+        <test-method signature="test3()[pri:0, instance:SeleniumExamples.practice2@183ec003]" started-at="2022-09-02T15:35:02 IST" name="test3" finished-at="2022-09-02T15:35:04 IST" duration-ms="2452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- SeleniumExamples.practice2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

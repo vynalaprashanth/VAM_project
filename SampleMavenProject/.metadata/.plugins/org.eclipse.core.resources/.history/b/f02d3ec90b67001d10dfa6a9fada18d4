@@ -1,0 +1,39 @@
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class framesHandling {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		
+		
+
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver=new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.manage().window().maximize();
+
+		driver.get("https://jqueryui.com/droppable/");
+		driver.switchTo().frame(driver.findElement(By.cssSelector(".demo-frame")));
+		Actions ac=new Actions(driver);
+		System.out.println(driver.findElement(By.tagName("iframe")).getSize());		
+		WebElement source=driver.findElement(By.id("draggable"));
+		Thread.sleep(1000);
+		WebElement target=driver.findElement(By.id("droppable"));
+		ac.dragAndDrop(source, target).build().perform();
+
+		System.out.println(driver.findElement(By.id("droppable")).getText());
+		driver.switchTo().defaultContent();
+		
+		
+		
+	}
+
+}

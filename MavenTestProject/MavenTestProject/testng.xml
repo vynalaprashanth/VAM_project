@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<parameter name="chrome" value="chrome"></parameter>
+<parameter name="url" value="http://www.mycontactform.com"></parameter>
+
+  <test  name="LoginService">
+    <classes>
+      <class name="AppTestCases.loginAppService"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="PremiumServiceTest">
+    <classes>
+      <class name="AppTestCases.VerifyPrimiumMemberShip"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

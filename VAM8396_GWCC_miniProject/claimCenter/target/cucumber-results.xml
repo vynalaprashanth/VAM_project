@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="36.258">
+    <testcase classname="demo login" name="login into home page" time="9.152">
+        <system-out>
+            <![CDATA[Given I open base url.......................................................passed
+When I pass correct username and password...................................passed
+Then I login................................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="demo login" name="cliam search" time="5.309">
+        <system-out>
+            <![CDATA[When Find Policy............................................................passed
+Then Enter the Policy Number................................................passed
+Then Click on Search........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="demo login" name="user is on new claim" time="0.549">
+        <system-out>
+            <![CDATA[When I enter loss date......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="demo login" name="Verificy of Select Involved Policy Vehicles" time="0.627">
+        <system-out>
+            <![CDATA[Then I select...............................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="demo login" name="Verfiy the basic information" time="3.164">
+        <system-out>
+            <![CDATA[When Select the How Reported from the dropdown list.........................passed
+Then Select the Name........................................................passed
+Then Choose New Person......................................................passed
+Then Enter First Name.......................................................passed
+Then Enter Last Name........................................................passed
+Then Click on Update........................................................passed
+Then Choose Related to Insured as Claimant from dropdown list...............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="demo login" name="add Cliams" time="1.677">
+        <system-out>
+            <![CDATA[Then Select Loss Cause from the dropdown list...............................passed
+Then Select Location from the dropdown list.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="demo login" name="Search for existing claims using claim number" time="6.984">
+        <system-out>
+            <![CDATA[When click search drop down and select claims...............................passed
+Then Search Claims..........................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="demo login" name="Search Activities" time="3.876">
+        <system-out>
+            <![CDATA[When click search drop down and select Activities...........................passed
+Then Search Activities......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="demo login" name="Search Recoveries" time="4.287">
+        <system-out>
+            <![CDATA[When click search drop down and select Recoveries...........................passed
+Then Search Recoveries......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

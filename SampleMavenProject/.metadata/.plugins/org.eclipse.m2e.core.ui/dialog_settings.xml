@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\PrashanthVynala\Downloads\VAM8396_Miniproject\GWCCMINIPROJECT"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\VAM8396_GWCC_miniProject"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\ClaimCenter"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\SampleMavenProject"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\VAM8396_Miniproject"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\SampleMavenProject\tset1"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\SampleMavenProject\parabank"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\SampleMavenProject\testNG\src\testNGpractice"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\MavenTestProject"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\GT VAM"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\PrashanthVynala\Downloads\CucumberProject Sir Project\CucumberProject\AppFeatures\NewAccount.feature"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\SampleMavenProject\tricentis"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\SampleMavenProject\Project0906\pom.xml"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\Cucumber_BDD\Cucumber_maven"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\SampleMavenProject\prashantpractice\src\test\java\practice\Annotations.java"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\Cucumber Project pr"/>
+			<item value="C:\Users\PrashanthVynala\cucumber practice"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\SampleMavenProject\prashantpractice\src\test\java\practicejava\prashantpractice\testngp.java"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\SampleMavenProject\testNG\pom.xml"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\SampleMavenProject\SampleMavenProject\src\test\java\SeleniumExamples\SignUpFormService.java"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\GT VAM\GTAPP"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\SampleMavenProject\SampleMavenProject"/>
+			<item value="C:\Users\PrashanthVynala\Downloads\SampleMavenProject\SampleMavenProject\src\test\java\SeleniumExamples\LoginService.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="Cucumber.DemoOrangeHRM"/>
+			<item value="Cucumber.orangeHRM"/>
+			<item value="Cucumber.OrangeHRM"/>
+			<item value="Cucumber.GWDemo"/>
+			<item value="TestNg.TricentisNew"/>
+			<item value="TestNg.tricentis"/>
+			<item value="TestNg.tset1"/>
+			<item value="TestNg.Project1"/>
+			<item value="Cucumber.PR0906"/>
+			<item value="Cucumber.Project0906"/>
+			<item value="Cucumber.SampleAutomation_1603"/>
+			<item value="Cucumber.Practice"/>
+			<item value="Cucumber.PRAutomation"/>
+			<item value="Cucumber.Automation"/>
+		</list>
+		<list key="groupId">
+			<item value="Cucumber"/>
+			<item value="TestNg"/>
+		</list>
+		<list key="artifactId">
+			<item value="DemoOrangeHRM"/>
+			<item value="orangeHRM"/>
+			<item value="OrangeHRM"/>
+			<item value="GWDemo"/>
+			<item value="TricentisNew"/>
+			<item value="tricentis"/>
+			<item value="tset1"/>
+			<item value="Project1"/>
+			<item value="PR0906"/>
+			<item value="Project0906"/>
+			<item value="SampleAutomation_1603"/>
+			<item value="Practice"/>
+			<item value="PRAutomation"/>
+			<item value="Automation"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="SeleniumDemo"/>
+			<item value="parabank"/>
+			<item value="testNG"/>
+			<item value="TestNGProject"/>
+			<item value="Prashanth"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="SeleniumDemo"/>
+			<item value="parabank"/>
+			<item value="testNG"/>
+			<item value="TestNGProject"/>
+			<item value="Prashanth"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.CustomArchetypeDialog">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="838"/>
+		<item key="x" value="720"/>
+		<item key="y" value="0"/>
+	</section>
+</section>

@@ -1,0 +1,388 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-06-27T13:25:19.202Z",
+        "line": 3,
+        "name": "login into home page",
+        "description": "",
+        "id": "demo-login;login-into-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8335744500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open base url",
+            "match": {
+              "location": "stepDefinitions.services.i_open_base_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 389217900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I pass correct username and password",
+            "match": {
+              "location": "stepDefinitions.services.i_pass_correct_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167021600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I login",
+            "match": {
+              "location": "stepDefinitions.services.i_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-27T13:25:28.403Z",
+        "line": 8,
+        "name": "cliam search",
+        "description": "",
+        "id": "demo-login;cliam-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1510994800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Find Policy",
+            "match": {
+              "location": "stepDefinitions.services.find_policy()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 582139500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter the Policy Number",
+            "match": {
+              "location": "stepDefinitions.services.enter_the_policy_number()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3208265800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on Search",
+            "match": {
+              "location": "stepDefinitions.services.click_on_search()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-27T13:25:33.733Z",
+        "line": 13,
+        "name": "user is on new claim",
+        "description": "",
+        "id": "demo-login;user-is-on-new-claim",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 546115800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter loss date",
+            "match": {
+              "location": "stepDefinitions.services.i_enter_loss_date()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-27T13:25:34.301Z",
+        "line": 17,
+        "name": "Verificy of Select Involved Policy Vehicles",
+        "description": "",
+        "id": "demo-login;verificy-of-select-involved-policy-vehicles",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 618626900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I select",
+            "match": {
+              "location": "stepDefinitions.services.i_select()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-27T13:25:34.946Z",
+        "line": 22,
+        "name": "Verfiy the basic information",
+        "description": "",
+        "id": "demo-login;verfiy-the-basic-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 806966000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Select the How Reported from the dropdown list",
+            "match": {
+              "location": "stepDefinitions.services.select_the_how_reported_from_the_dropdown_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145153900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Select the Name",
+            "match": {
+              "location": "stepDefinitions.services.select_the_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 165478100,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Choose New Person",
+            "match": {
+              "location": "stepDefinitions.services.choose_new_person()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 594471300,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Enter First Name",
+            "match": {
+              "location": "stepDefinitions.services.enter_first_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 299355300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Enter Last Name",
+            "match": {
+              "location": "stepDefinitions.services.enter_last_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 182003300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Click on Update",
+            "match": {
+              "location": "stepDefinitions.services.click_on_update()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 949129200,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Choose Related to Insured as Claimant from dropdown list",
+            "match": {
+              "location": "stepDefinitions.services.choose_related_to_insured_as_claimant_from_dropdown_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-27T13:25:38.122Z",
+        "line": 32,
+        "name": "add Cliams",
+        "description": "",
+        "id": "demo-login;add-cliams",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 831457900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Select Loss Cause from the dropdown list",
+            "match": {
+              "location": "stepDefinitions.services.select_loss_cause_from_the_dropdown_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 832341100,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Select Location from the dropdown list",
+            "match": {
+              "location": "stepDefinitions.services.select_location_from_the_dropdown_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-27T13:25:39.825Z",
+        "line": 36,
+        "name": "Search for existing claims using claim number",
+        "description": "",
+        "id": "demo-login;search-for-existing-claims-using-claim-number",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3169680400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "click search drop down and select claims",
+            "match": {
+              "location": "stepDefinitions.services.click_search_drop_down_and_select_claims()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3805617000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Search Claims",
+            "match": {
+              "location": "stepDefinitions.services.search_claims()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-27T13:25:46.825Z",
+        "line": 40,
+        "name": "Search Activities",
+        "description": "",
+        "id": "demo-login;search-activities",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3184809400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "click search drop down and select Activities",
+            "match": {
+              "location": "stepDefinitions.services.click_search_drop_down_and_select_activities()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 683978800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Search Activities",
+            "match": {
+              "location": "stepDefinitions.services.search_activities()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-06-27T13:25:50.720Z",
+        "line": 44,
+        "name": "Search Recoveries",
+        "description": "",
+        "id": "demo-login;search-recoveries",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3205619300,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "click search drop down and select Recoveries",
+            "match": {
+              "location": "stepDefinitions.services.click_search_drop_down_and_select_recoveries()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1075226500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Search Recoveries",
+            "match": {
+              "location": "stepDefinitions.services.search_recoveries()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "demo login",
+    "description": "",
+    "id": "demo-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/cliamCenter.feature",
+    "tags": []
+  }
+]

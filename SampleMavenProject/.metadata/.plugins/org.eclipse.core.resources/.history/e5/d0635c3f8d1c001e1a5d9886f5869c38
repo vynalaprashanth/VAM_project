@@ -1,0 +1,77 @@
+package Cucumber.DemoOrangeHRM;
+
+import static org.junit.Assert.assertTrue;
+
+import java.time.Duration;
+
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest 
+{
+	
+	WebDriver driver;
+	String url="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
+    @Test
+    public void shouldAnswerWithTrue() throws InterruptedException
+    {
+
+    WebDriverManager.chromedriver().setup();
+    driver=new ChromeDriver();
+    driver.get(url);
+    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+    
+    
+    driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
+    driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
+    driver.findElement(By.xpath("//button[@type='submit']")).click();
+    //recruitment
+    driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[1]/aside/nav/div[2]/ul/li[5]/a/span")).click();
+    Thread.sleep(2000);
+    
+    driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/div/div/div[2]/i")).click();
+    //job titile
+    Thread.sleep(2000);
+
+    driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/div/div/div[1]")).click();
+    //vacancy
+    Thread.sleep(2000);
+
+    driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[2]/div/div[2]/div/div/div[1]")).click();
+   //hiring manager
+    Thread.sleep(2000);
+
+    driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[3]/div/div[2]/div/div/div[1]")).click();
+    //status
+    Thread.sleep(2000);
+
+    driver.findElement(By.xpath("//*[@id=\"app\"]/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[4]/div/div[2]/div/div/div[1]")).click();
+    //cancidate name
+    Thread.sleep(2000);
+
+    driver.findElement(By.xpath("//input[@placeholder='Type for hints...']")).sendKeys("Prashanth Vynala");
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+}
